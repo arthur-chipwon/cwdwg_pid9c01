@@ -20,7 +20,7 @@ var serial = {};
 
   serial.Port = function(device) {
     this.device_ = device;
-    this.interfaceNumber_ = 0;  // original interface number of WebUSB device
+    this.interfaceNumber_ = 3;  // original interface number of WebUSB device
     this.endpointIn_ = 3;       // original in endpoint ID of WebUSB device
     this.endpointOut_ = 4;      // original out endpoint ID of WebUSB device
   };
